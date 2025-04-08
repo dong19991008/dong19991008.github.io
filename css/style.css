@@ -125,7 +125,7 @@ button:focus {
 .home__avatar {
   width: 250px;
   height: 250px;
-  border-radius: 100px;
+  border-radius: 100%;
   border: 3px solid var(--color-accent);
   object-fit: cover; /*이미지가 부모 요소의 크기에 맞춰 비율을 유지하면서 꽉 차도록 설정*/
 }
