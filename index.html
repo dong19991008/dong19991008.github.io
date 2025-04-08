@@ -54,7 +54,7 @@
         <h2 class="home__title">안녕하세요. 엄동렬 입니다.</h2><br>
         <strong class="home__title--string"></strong>
         <p class="home__description">세상에서 가장 뛰어난 AI 개발자 엄동렬입니다.</p>
-        <a class ="#contact">연락처</a>
+        <a class="home__contact" href="#contact">연락처</a>
       </section>
       <!--Home 끝-->
 
@@ -112,46 +112,47 @@
       <!--about 끝-->
 
       <!--skills 시작-->
-      <section id="skills">
-        <h2>기술</h2>
-        <p>언어 및 도구</p>
+      <section id="skills" class="section">
+        <div class="max-container">
+        <h2 class="title">기술</h2>
+        <p class="description">언어 및 도구</p>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quam
           quaerat enim error. Dolores totam aliquid perspiciatis nobis nemo at.
           Quo necessitatibus incidunt accusamus rem nihil dolore ullam
           perspiciatis labore?
         </p>
-        <div>
-          <section>
-            <h3>언어</h3>
+        <div class="tools">
+          <section class="tools__coding">
+            <h3 class="tools__title">언어</h3>
             <ul>
-              <li>
-                <div><span>html</span><span>100%</span></div>
-                <div><div style="width: 100%"></div></div>
+              <li class="bar">
+                <div class="bar__metadata"><span>html</span><span>100%</span></div>
+                <div class="bar__bg"><div class="bar__value" style="width: 100%"></div></div>
               </li>
-              <li>
-                <div><span>css</span><span>90%</span></div>
-                <div><div style="width: 90%"></div></div>
+              <li class="bar">
+                <div class="bar__metadata"><span>css</span><span>90%</span></div>
+                <div class="bar__bg"><div class="bar__value" style="width: 90%"></div></div>
               </li>
-              <li>
-                <div><span>javascript</span><span>80%</span></div>
-                <div><div style="width: 80%"></div></div>
+              <li class="bar">
+                <div class="bar__metadata"><span>javascript</span><span>80%</span></div>
+                <div class="bar__bg"><div class="bar__value" style="width: 80%"></div></div>
               </li>
-              <li>
-                <div><span>java</span><span>70%</span></div>
-                <div><div style="width: 70%"></div></div>
+              <li class="bar">
+                <div class="bar__metadata"><span>java</span><span>70%</span></div>
+                <div class="bar__bg"><div class="bar__value" style="width: 70%"></div></div>
               </li>
-              <li>
-                <div><span>python</span><span>90%</span></div>
-                <div><div style="width: 90%"></div></div>
+              <li class="bar">
+                <div class="bar__metadata"><span>python</span><span>90%</span></div>
+                <div class="bar__bg"><div class="bar__value" style="width: 90%"></div></div>
               </li>
             </ul>
           </section>
         
       
       
-        <section>
-          <h3>도구</h3>
+        <section class="tools__tools">
+          <h3 class="tools__title">도구</h3>
           <ul>
             <li>visual studio code</li>
             <li>intellij</li>
@@ -163,8 +164,8 @@
       
 
       
-        <section>
-          <h3>기타</h3>
+        <section class="tools__etc">
+          <h3 class="tools__title">기타</h3>
           <ul>
             <li>git</li>
             <li>slack</li>
@@ -172,7 +173,7 @@
           </ul>
         </section>
       </div>
-
+    </div>
       <!--skills 끝-->
 
       <!--work 시작-->
