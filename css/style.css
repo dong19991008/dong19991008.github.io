@@ -255,7 +255,7 @@ tools__etc {
   filter: brightness(150%);
 }
 
-/*work*/
+/* work */
 #work {
   background-color: var(--color-primary);
   color: var(--color-text);
@@ -309,7 +309,6 @@ tools__etc {
   border-radius: 8px;
   overflow: hidden;
 }
-
 .project__img {
   width: 100%;
 }
@@ -328,15 +327,14 @@ tools__etc {
   transition: all 250ms ease-in;
   transform: translateY(-10px);
 }
-.project__metadate:hover {
+.project__metadata:hover {
   opacity: 0.8;
   transform: translateY(0px);
 }
-
 /*
-after: 요소 뒤에 가상의 요소를 하나 만들어주는 선택자
-content: "" 아무 내용도 없는 빈 가상 요소를 만듦
-display:block 가상 요소를 블록 요소처럼 만들어서 크기를 줄 수 있게 함
+  after: 요소 뒤에 가상의 요소를 하나 만들어주는 선택자
+  content: "" 아무 내용도 없는 빈 가상 요소를 만듦
+  display: block; 가상 요소를 블록 요소처럼 만들어서 크기를 줄 수 있게 함
 */
 .project__title:after {
   content: "";
