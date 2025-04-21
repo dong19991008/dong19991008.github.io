@@ -18,6 +18,7 @@
       property="og:image"
       content="https://dong19991008.github.io/images/profile_3135715.png"
     />
+    <script defer src="./js/main.js"></script>
   </head>
   <body>
     <!--Header 시작-->
@@ -40,6 +41,8 @@
           <li><a href="#contact" class="header__menu__item">연락처</a></li>
         </ul>
       </nav>
+      <button class="headr__toggle"></button>
+      <i class="fa-solid fa-bars"></i>
     </header>
     <!--Header 끝-->
 
@@ -47,14 +50,16 @@
     <main>
       <!--Home 시작-->
       <section id="home">
+        <div class="home__container">
         <img class="home__avatar" src="./images/profile_3135715.png" alt="dongryeol's profile" />
         <h2 class="home__title">
           안녕하세요!<br />
-          <strong class="home__title--string">엄동렬</strong>입니다</h2>
+          <strong class="home__title--strong">엄동렬</strong>입니다</h2>
           <p class="home__description">
             세상에서 가장 뛰어난 AI 개발자 엄동렬 입니다!!
           </p>
           <a class="home__contact" href="#">연락처</a>
+        </div>
       </section>
       <!--Home 끝-->
 
@@ -70,27 +75,27 @@
           unde aut molestias, minima, quo consequuntur quidem earum ducimus eius
           alias sed praesentium enim blanditiis laboriosam?
         </p>
-        <ul class="skills">
-          <li class="skill">
-            <i class="fa-brands fa-html5 skill__icon" ></i>
-            <p class="skill__title">Front-end</p>
+        <ul class="majors">
+          <li class="major">
+            <i class="fa-brands fa-html5 major__icon" ></i>
+            <p class="major__title">Front-end</p>
             <p>html, css, javascript</p>
           </li>
-          <li class="skill">
-          <i class="fa-brands fa-html5 skill__icon"></i>
-          <p  class="skill__title">mobile</p>
+          <li class="major">
+          <i class="fa-brands fa-html5 major__icon"></i>
+          <p  class="major__title">mobile</p>
           <p>android, ios, kotlin</p>
         </li>
-        <li class="skill">
-          <i class="fa-solid fa-bomb skill__icon"></i>
-          <p  class="skill__title">AI</p>
+        <li class="major">
+          <i class="fa-solid fa-bomb major__icon"></i>
+          <p  class="major__title">AI</p>
           <p>tensorflow, python</p>
         </li>
         </ul>
 
         <ul class="jobs">
           <li class="job">
-            <img class="job__img" src="./images/kakao.png" alt="카카오오" />
+            <img class="job__img" src="./images/kakao.png" alt="카카오" />
             <div>
               <p class="job__name">쿠팡</p>
               <p class="job_period">
@@ -124,9 +129,9 @@
           Quo necessitatibus incidunt accusamus rem nihil dolore ullam
           perspiciatis labore?
         </p>
-        <div class="tools">
-          <section class="tools__coding">
-            <h3 class="tools__title">언어</h3>
+        <div class="skills">
+          <section class="skills__coding">
+            <h3 class="skills__title">언어</h3>
             <ul>
               <li class="bar">
                 <div class="bar__metadata"><span>html</span><span>100%</span></div>
@@ -153,8 +158,8 @@
         
       
       
-        <section class="tools__tools">
-          <h3 class="tools__title">도구</h3>
+        <section class="skills__tools">
+          <h3 class="skills__title">도구</h3>
           <ul>
             <li>visual studio code</li>
             <li>intellij</li>
@@ -166,8 +171,8 @@
       
 
       
-        <section class="tools__etc">
-          <h3 class="tools__title">기타</h3>
+        <section class="skills__etc">
+          <h3 class="skills__title">기타</h3>
           <ul>
             <li>git</li>
             <li>slack</li>
